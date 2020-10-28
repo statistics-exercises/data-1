@@ -1,8 +1,5 @@
-import matplotlib.pyplot as plt
-import scipy.stats as st
-import numpy as np
 import unittest
-import main
+from main import *
 
 class UnitTests(unittest.TestCase) :
     def test_xvalues(self) :
